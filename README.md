@@ -13,5 +13,6 @@
  
 [Vídeo de demonstração](https://drive.google.com/file/d/19d-w_EkP4-R51_KZ4XITZm0iBrCNrAGE/view?usp=sharing)
 
-Link para a versão Android(Java):
- [AndroidMemoryGame](https://github.com/leuribeiru/AndroidMemoryGame)
+# Funcionamento do Jogo
+ O funcionamento do jogo é o mesmo da versão para Android(Java), que pode ser acessada neste [link](https://github.com/leuribeiru/AndroidMemoryGame)
+
