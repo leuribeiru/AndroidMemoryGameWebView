@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Memória</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="gameContainer" class="game-container">
+        <button id="btnScore" class="btn background-gray color-white">VER PLACAR</button>
+        <div id="gridCards" class="grid-cards">
+            <div class="row-cards">
+                <div class="col-cards">
+                    <button id="btn1" class="btn btn-game background-red">1</button>
+                </div>
+                <div class="col-cards">
+                    <button id="btn2" class="btn btn-game background-green">2</button>
+                </div>
+            </div>
+            <div class="row-cards">
+                <div class="col-cards">
+                    <button id="btn3" class="btn btn-game background-blue">3</button>
+                </div>
+                <div class="col-cards">
+                    <button id="btn4" class="btn btn-game background-yellow">4</button>
+                </div>
+            </div>
+            <div class="row-cards">
+                <div class="col-cards">
+                    <button id="btn5" class="btn btn-game background-magenta">5</button>
+                </div>
+                <div class="col-cards">
+                    <button id="btn6" class="btn btn-game background-cyan">6</button>
+                </div>
+            </div>
+        </div>
+        <div id="gridWinner" class="grid-winner">
+            <h2><b>Parabéns!</b></h2>
+            <h3><i>Você tem uma boa memória!</i></h3>
+            <div class="form-winner">
+                <h4><i>Deseja salvar seu placar?</i></h4>
+                <div><span id="timeResult"></span> segundo(s)</div>
+                <div><span id="errosResult"></span> erro(s)</div>
+                <input type="text" name="name" id="inputName" placeholder="Nome">
+                <button id="btnSave" class="btn background-blue color-white">SALVAR</button>
+            </div>
+        </div>
+        <button id="btnRestart" class="btn background-gray color-white">REINICIAR</button>
+        <div>
+            <label for="progressBar" class="color-gray">Progresso:</label>
+            <progress id="progressBar" value="25" max="100"></progress>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>

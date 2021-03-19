@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.game-container{
+    background-color: white;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: space-around;
+    transition: background-color 0.3s linear;
+}
+
+.grid-cards{
+    margin: 10px auto;
+    align-self: center;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row-cards{
+    display: flex;
+    flex-direction: row;
+}
+
+.col-cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+.btn:disabled{
+    background-color: #ccc;
+    color: #aaa;
+}
+
+.btn-game{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    font-size: 30px;
+    border: none;
+    transition: transform 0.2s linear, visibility 0.3s;
+    visibility: visible;
+}
+
+.btn-game:active{
+    transform: scale(0.9, 0.9);
+    transition: transform 0.2s linear, visibility 0.3s;
+    border: none;
+}
+
+.btn-none{
+    transform: scale(0, 0);
+    transition: transform 0.2s linear, visibility 0s;
+    visibility: hidden;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.color-gray{
+    color:#aaa;
+}
+
+.background-gray{
+    background-color: #aaa;
+}
+
+.background-red{
+    background-color: #f00;
+}
+
+.background-green{
+    background-color: #0f0;
+}
+
+.background-blue{
+    background-color: #00f;
+}
+
+.background-yellow{
+    background-color: #ff0;
+}
+
+.background-magenta{
+    background-color: #f0f;
+}
+
+.background-cyan{
+    background-color: #0ff;
+}
+
+.grid-winner{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    max-width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-winner .form-winner{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.grid-winner .form-winner input, .grid-winner .form-winner button{
+    margin: 10px;
+}
+
+.grid-winner input{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.score-container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: calc(100vh - 40px);
+    width: 100vw;
+    max-height: calc(100vh - 40px);
+    padding: 20px 0;
+}
+
+.row-score-tab{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.tab{
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    width: 50%;
+}
+
+
+.tab:disabled{
+    background-color: #ccc;
+    color: #aaa;
+}
+
+.score-list{
+    display:flex;
+    flex-direction:column;
+    margin: 20px auto 0;
+    width: 100%;
+    max-width: 400px;
+    overflow-y: auto;
+}
+
+.score-item{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-top: 1px solid #ccc;
+}
+
+.score-item div:first-child{
+    margin-right: 20px;
+}
+
+.score-item div:last-child{
+    margin-left: 20px;
+}
