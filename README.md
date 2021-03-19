@@ -1,2 +1,13 @@
 # AndroidMemoryGameWebView
- Jogo da Memória com a lógica em Javascript utilizando o WebView do Android
+ 
+ Versão do jogo desenvolvida utilizando as tecnologias web (JavaScript, CSS e HTML) através de um WebView do Android.
+ A lógica do jogo agora está escrita em JavaScript.
+ Algumas funcionalidades foram implementadas em Java, nativamente no Android, como exibir um Toast ou uma Janela modal para responder "sim" ou "não".
+ Estas funcionalidades foram implementadas como uma interface para binding Javascript -> Java, dessa forma, o código Java é chamado no JavaScript
+ O contrário também acontece, no modal onde o usuário responde "sim" ou "não", o Android(Java), executa uma função do JavaScript
+ 
+ Nesta versão, a persistência do placar, que antes utilizava o SQLite, passa a utilizar o LocalStorage, presente no WebView do Android, como em outros navegadores.
+ 
+[Vídeo de demonstração](https://drive.google.com/file/d/19d-w_EkP4-R51_KZ4XITZm0iBrCNrAGE/view?usp=sharing)
+
+Link para a versão em Android(https://github.com/leuribeiru/AndroidMemoryGame)
