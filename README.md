@@ -34,6 +34,6 @@
  Na tela do "Placar" tem um botão "Apagar Placares", se o usuário clicar um alerta irá aparecer, caso confirme os placares serão apagados.
 
 
- 
- Versão para Android(Java), que pode ser acessada neste [link](https://github.com/leuribeiru/AndroidMemoryGame)
+# Mais informações
+ A versão para Android(Java) pode ser acessada neste [link](https://github.com/leuribeiru/AndroidMemoryGame)
 
