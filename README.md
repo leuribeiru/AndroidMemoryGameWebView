@@ -9,8 +9,9 @@
  
  O contrário também acontece, no modal onde o usuário responde "sim" ou "não", o Android(Java), executa uma função do JavaScript.
  
- Nesta versão, a persistência do placar, que antes utilizava o SQLite, passa a utilizar o LocalStorage, presente no WebView do Android assim como em outros navegadores.
+ Nesta versão, a persistência do placar, que antes utilizava o SQLite, passa a utilizar o LocalStorage, controlada pelo JavaScript, presente no WebView do Android assim como em outros navegadores.
  
 [Vídeo de demonstração](https://drive.google.com/file/d/19d-w_EkP4-R51_KZ4XITZm0iBrCNrAGE/view?usp=sharing)
 
+#Mais informações
 Link para a versão em Android(Java)(https://github.com/leuribeiru/AndroidMemoryGame)
