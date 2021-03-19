@@ -13,5 +13,5 @@
  
 [Vídeo de demonstração](https://drive.google.com/file/d/19d-w_EkP4-R51_KZ4XITZm0iBrCNrAGE/view?usp=sharing)
 
-# Mais informações
-Link para a versão em Android(Java)(https://github.com/leuribeiru/AndroidMemoryGame)
+Link para a versão Android(Java):
+ [AndroidMemoryGame](https://github.com/leuribeiru/AndroidMemoryGame)
